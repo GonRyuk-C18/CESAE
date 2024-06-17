@@ -21,7 +21,9 @@ public class Exercicio11 {
             System.out.println("Saldo disponivel: " + saldo);
         }
         else {
+            saldo=total;
             System.out.println("Saldo disponivel: " + saldo);
+
         }
         }
 
