@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--form get vai por dados na aba // form post vai ecriptada para enviar (não aparece na aba)-->
+    <form action="" method="get">
+        <fieldset> <!--limitador formulario (linha)-->
+            <legend>Fromulario do Cesae</legend>
+            <div>
+            <label for="form-nome">Nome:</label>
+            <input type="text" name="form-nome" id="form-nome"> <!--for=id-->
+        </div>
+        <div>
+            <label for="form-email">Email:</label>
+            <input type="email" name="form-email" id="form-email">
+        </div>
+        <div>
+            <label for="form-password">Password:</label> <!--control+d para selecionar os 3 "forms-****"-->
+            <input type="password" name="form-password" id="form-password">
+        </div>
+        <div>
+            <label for="form-cor">Cor Favorita:</label>
+            <br>
+        
+            <input type="radio" name="form-cor" id="form-cor"><!-- podia ter o "branco" diretamente no input porem não fica bem construido-->
+                <label for="">Branco</label><br>
+            <input type="radio" name="form-cor" id="form-cor">
+                <label for="">Preto</label><br>
+            <input type="radio" name="form-cor" id="form-cor">
+                <label for="">Azul</label><br>
+            <input type="radio" name="form-cor" id="form-cor">
+                <label for="">Roxo</label><br>
+            <input type="radio" name="form-cor" id="form-cor">
+            <label for="">Verde</label><br>
+                
+        </div>
+
+        </fieldset> 
+    </form>
+</body>
+</html>
