@@ -20,7 +20,7 @@
         </div>
         <div>
             <label for="form-password">Password:</label> <!--control+d para selecionar os 3 "forms-****"-->
-            <input type="password" name="form-password" id="form-password">
+            <input type="password" name="form-password" id="form-password" required> <!--rquired indica que é necessario-->
         </div>
         <div>
             <label for="form-cor">Cor Favorita:</label>
@@ -28,7 +28,7 @@
         
             <input type="radio" name="form-cor" id="form-cor"><!-- podia ter o "branco" diretamente no input porem não fica bem construido-->
                 <label for="">Branco</label><br>
-            <input type="radio" name="form-cor" id="form-cor">
+            <input type="radio" name="form-cor" id="form-cor"><!--mesmo name para so poder selecionar uma opção-->
                 <label for="">Preto</label><br>
             <input type="radio" name="form-cor" id="form-cor">
                 <label for="">Azul</label><br>
@@ -38,7 +38,38 @@
             <label for="">Verde</label><br>
                 
         </div>
+        <br>
+        <!--option caso mais de uma opção disponivel a apresentar ao utilizador (dropdown)-->
+        <div>
+            <label for="curso-form">Curso a frequentar</label>
+            <br>
+            <select name="" id="">
+                <option value=""disabled selected>Selecione uma opção</option> <!--aparece opção mas não é possivel selecionar (disabled selected)-->
+                <option value="curso-form-sd">Softdev</option>
+                <option value="curso-form-fe">FendDev</option>
+                <option value="curso-form-fs">FullStack</option>
+                <option value="curso-form-da">Data Analyst</option>
+            </select>
+        </div>
 
+        <!--checkbox, -->
+        <div>
+            <label for="">Dias da semana com formação</label>
+            <br>
+            <input type="checkbox" name="" id=""><label for="">Segunda feira</label><br>
+            <input type="checkbox" name="" id=""><label for="">terça feira</label><br>
+            <input type="checkbox" name="" id=""><label for="">quarta feira</label><br>
+            
+        </div>
+        <!--Text area-->
+        <div>
+            <label for="">Mensagem</label>
+            <textarea name="" id="" cols="" rows="" placeholder="escreva aqui o seu texto"></textarea> <!--cols rows tamanho de box, placehoder marca de agua descritivo (pode ser usado noutro label)-->
+        </div>
+        <div>
+            <input type="reset" value="Limpar" name="" id="">
+            <input type="submit" value="enviar" name="" id="">
+        </div>
         </fieldset> 
     </form>
 </body>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="icon" href="https://www.cesaedigital.pt/wp-content/uploads/2016/07/cropped-Favicone-192x192.png">
+    <title>formulario</title>
+</head>
+<body>
+    <header style="text-align: center;">
+        <a rel="stylesheet" href="https://www.cesaedigital.pt/"><img src="https://www.cesaedigital.pt/wp-content/uploads/2016/07/logo_cesae-cores_horizontal_header_site.png" target="_blank" alt="Logotipo CESAE" width="300px"></a>
+        <nav style="text-align: right;">
+                <a href="form.html">Formulario</a>
+                <a href="multimedia1.html">Multimedia</a>
+        </nav>
+        </header>
+    <main>
+        <form action="" method="">
+    <fieldset>
+        <legend>Formulario de Contacto do Cesae</legend>
+        <div>
+            <label for="form_nome">Nome</label>
+            <input type="text" name="form_nome" id="form_nome" placeholder="Insira o seu nome *" required> <!--* boa pratica para campos obrigatorios-->
+        </div>
+        <div>
+            <label for="form_email">Email</label>
+            <input type="email" name="form_email" id="form_email">
+        </div>
+        <br>
+        <div>
+            <label for="form-genero">Genero</label><br>
+            <input type="radio" name="form-genero" id="form-genero"><label for=""> Masculino</label><br>
+            <input type="radio" name="form-genero" id="form-genero"><label for=""> Feminino</label><br>
+        </div>
+        <br>
+        <div>
+            <label for="form-data">Data Atual:</label>
+            <input type="date" name="form-data" id="form-data">
+        </div>
+        <div>
+            <label for="turma">Turma</label>
+            <select name="turma" id="turma">
+            <option value="Turma-WD">Web-Developer & Mobile</option>
+            <option value="Turma-O">Outra</option>
+        </select>
+        </div>
+        <div>
+            <label for="form-Message">Mensagem</label>
+            <textarea name="" id="form-Message" cols="30" rows="3"></textarea>
+        </div>
+        <input type="reset" value="Limpar" name="Limpar" id="">
+        <input type="submit" value="Enviar" name="Enviar" id="">
+
+    </fieldset>
+</form>
+    </main>
+    <hr>
+    <footer>
+        <div style="gap: 10px; display: flex;">
+    <a title="Facebook" href="https://www.facebook.com/CesaeDigital"><img src="facebook-logo.png" alt="Facebook_link" width="20px" height = "30px"></a>
+    <a href="https://www.linkedin.com/company/cesae-digital/"><img src="linkedin.png" alt="Linkedin_link" width="20px" height = "30px"></a>
+    <a href="https://www.youtube.com/user/CESAECanal"><img src="youtube.jpg" alt="Youtube_link" width="20px" height = "30px"></a>
+    </div>
+    <hr>
+    <p>Designed by PedroCv</p>
+    </footer>
+</body>
+</html>
