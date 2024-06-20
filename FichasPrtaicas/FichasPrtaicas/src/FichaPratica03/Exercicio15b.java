@@ -6,7 +6,7 @@ public class Exercicio15b {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int numero, fatorial=1, x=0, total=0, numeroinicial, vezes=1;
+        int numero, fatorial=1, x=0, numeroinicial, vezes=1;
 
 
         System.out.println("Digite um numero positivo: ");
@@ -24,10 +24,10 @@ public class Exercicio15b {
                     vezes--;
                 }
                 fatorial = fatorial+x;
-                numero--;
                 vezes=numero-1;
+                numero--;
             }
-            System.out.println("fatorial de " + numeroinicial + " = " + total);
+            System.out.println("fatorial de " + numeroinicial + " = " + fatorial);
         }
         else
         {
