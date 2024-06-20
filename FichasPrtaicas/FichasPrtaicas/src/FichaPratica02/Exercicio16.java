@@ -11,7 +11,7 @@ public class Exercicio16 {
         System.out.print("Digite um valor em euros: ");
         valor = input.nextInt();
 
-        // 1100/200= duz=
+
         multiplo=valor%5;
 
         if (multiplo==0)

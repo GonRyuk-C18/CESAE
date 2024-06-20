@@ -6,16 +6,16 @@ public class Exercicio4 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int numerox, numeroy=0;
+        int fim, inicio=0;
 
         System.out.println("Insira um numero inteiro:");
-        numerox = input.nextInt();
+        fim = input.nextInt();
 
 
-        while (numeroy <= numerox)
+        while (inicio <= fim)
         {
-            System.out.println("- " + numeroy);
-            numeroy++;
+            System.out.println("- " + inicio);
+            inicio++;
         }
     }
 }

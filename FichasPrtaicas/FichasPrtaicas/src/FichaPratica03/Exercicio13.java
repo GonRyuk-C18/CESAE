@@ -13,6 +13,23 @@ public class Exercicio13 {
         System.out.print("Insira um numero inteiro para terminar: ");
         fim = input.nextInt();
 
+        System.out.println("- " + inicio);
+        while (inicio<=fim)
+        {
+            if (inicio%5==0) {
+                System.out.println("- " + inicio);
+                inicio++;
+            }
+            else
+            {
+                inicio++;
+            }
+        }
+        if (fim%5!=0) {
+            System.out.println("- " + fim);
+        }
+
+
         
 
     }

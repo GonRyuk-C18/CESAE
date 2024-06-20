@@ -12,8 +12,8 @@ public class Exercicio7 {
         while (numero<=100)
         {
             System.out.println("- " + numero);
-            numero++;
             somatorio= somatorio+numero;
+            numero++;
         }
         System.out.println("Somatorio: " + somatorio);
     }

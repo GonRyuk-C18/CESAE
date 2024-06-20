@@ -12,7 +12,9 @@ public class Exercicio05 {
 
         System.out.println("Introduza um numero: ");
         numero = input.nextInt();
-        System.out.print("Introduza uma mensagem: ");
+        System.out.println("Introduza uma mensagem: ");
+        //limpeza dbuffer apenas se tivermos lido algo antes.
+        input.nextLine();
         mensagem = input.next();
 
         while (x < numero)

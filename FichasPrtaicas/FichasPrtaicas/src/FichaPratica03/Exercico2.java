@@ -6,12 +6,19 @@ public class Exercico2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int numero=2;
+        int numero=1;
 
         while (numero<=400)
         {
-            System.out.println("- " + numero);
-            numero = numero+2;
+            if(numero%2==0)
+            {
+                System.out.println("- " + numero);
+                numero++;
+            }
+            else
+            {
+                numero++;
+            }
         }
     }
 }
