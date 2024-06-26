@@ -13,11 +13,12 @@ public class Exercicio04 {
 
            numero = input.nextInt();
 
-           if (numero%numero == 0 && numero/1 == numero) {
-               System.out.println("primo");
-           }
-           else {
+           if (numero/2!=1 || numero%2!=0) {
                System.out.println("não primo");
+           }
+           else
+           {
+               System.out.println("Primo");
            }
        }while (count==1);
     }
