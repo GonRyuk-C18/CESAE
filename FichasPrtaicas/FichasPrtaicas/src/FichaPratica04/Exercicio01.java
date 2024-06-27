@@ -40,9 +40,10 @@ do {
         default:
             System.out.println("Operação invalida");
     }
-    System.out.println("Deseja continuar? (S/N)");
-    continuar = input.next();
-}while (!continuar.equals("N"));
+        System.out.println("Deseja continuar? (S/N)");
+        continuar = input.next();
+
+}while (!continuar.equalsIgnoreCase("N"));
 
 
 

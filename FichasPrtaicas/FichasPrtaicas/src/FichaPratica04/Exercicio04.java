@@ -13,8 +13,34 @@ public class Exercicio04 {
 
            numero = input.nextInt();
 
-           if (numero/2!=1 || numero%2!=0) {
-               System.out.println("não primo");
+           if (numero%2==0 || numero%3==0 ||numero%5==0 ||numero%7==0) {
+              if( numero/2==1 && numero%2==0)
+              {
+                  System.out.println("Primo");
+              } else if (numero/3==1 && numero%3==0)
+              {
+                  System.out.println("Primo");
+              } else if (numero/5==1 && numero%5==0)
+              {
+                  System.out.println("Primo");
+              }
+              else if (numero/7==1 && numero%7==0)
+              {
+                  System.out.println("Primo");
+              }
+              else if (numero/8==1 && numero%8==0)
+              {
+                  System.out.println("Primo");
+              }else if (numero/9==1 && numero%9==0)
+              {
+                  System.out.println("Primo");
+              }else if (numero/11==1 && numero%11==0)
+              {
+                  System.out.println("Primo");
+              }else
+              {
+                  System.out.println("Não primo");
+              }
            }
            else
            {
