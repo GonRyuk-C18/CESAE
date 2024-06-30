@@ -7,7 +7,7 @@ public class Exercicio11 {
         Scanner input = new Scanner(System.in);
 
         int [][] matriz = new int[3][3];
-        int maior = 0, menor = 0;
+        int maior=0, menor=0;
 
         for (int i = 0; i < matriz.length; i++)
         {
@@ -15,6 +15,17 @@ public class Exercicio11 {
             {
                 System.out.println("Insira o valor : ");
                 matriz[i][j] = input.nextInt();
+
+            }
+        }
+        maior=matriz[0][0];
+        menor=matriz[0][0];
+
+
+        for (int i = 0; i < matriz.length; i++)
+        {
+            for (int j = 0; j < matriz[i].length; j++)
+            {
                 if (maior < matriz[i][j])
                 {
                     maior = matriz[i][j];
@@ -23,14 +34,6 @@ public class Exercicio11 {
                 {
                     menor = matriz[i][j];
                 }
-            }
-        }
-
-
-        for (int i = 0; i < matriz.length; i++)
-        {
-            for (int j = 0; j < matriz[i].length; j++)
-            {
                 System.out.print(matriz[i][j] + "  ");
             }
             System.out.println(" ");

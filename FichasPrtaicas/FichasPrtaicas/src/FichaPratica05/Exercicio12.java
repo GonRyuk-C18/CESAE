@@ -25,11 +25,12 @@ public class Exercicio12 {
         {
             for (int j = 0; j < matriz.length ; j++)
             {
-                if (j==0)
-                {matriz[i][j] = array_1[i];}
-                else{
-                matriz[i][j] = array_2[i];}
-
+                if (j==0) {
+                    matriz[i][j] = array_1[i];
+                }
+                if (j==1) {
+                    matriz[i][j] = array_2[i];
+                }
             }
         }
         for (int i = 0; i < matriz.length; i++)
