@@ -11,7 +11,7 @@ public class Exercicio13 {
 
         for (int i = 0; i < matriz.length; i++)
         {
-            for (int j = 0; j < matriz.length; j++)
+            for (int j = 0; j < matriz[0].length; j++)
             {
                 System.out.println("Insira um numero na Matriz["+i+"]["+j+"] :");
                 matriz[i][j] = input.nextInt();

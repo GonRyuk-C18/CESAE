@@ -9,9 +9,9 @@ public class Exercicio9 {
         int [][] valor =  new int[5][5];
         int total=0;
 
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < valor.length; i++)
         {
-            for (int j = 0; j < 5; j++)
+            for (int j = 0; j < valor[0].length; j++)
             {
                 System.out.println("Digite um valor: ");
                 valor[i][j] = input.nextInt();

@@ -8,9 +8,9 @@ public class Exercicio8 {
 
         int [][] valor= new int[3][3];
 
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < valor.length; i++)
         {
-         for (int j = 0; j < 3; j++)
+         for (int j = 0; j < valor[0].length; j++)
          {
              System.out.println("Intoduza um valor: ");
              valor[i][j] = input.nextInt();

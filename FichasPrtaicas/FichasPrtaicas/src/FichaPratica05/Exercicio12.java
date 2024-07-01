@@ -23,7 +23,7 @@ public class Exercicio12 {
 
         for (int i = 0; i < matriz.length ; i++)
         {
-            for (int j = 0; j < matriz.length ; j++)
+            for (int j = 0; j < matriz[0].length ; j++)
             {
                 if (j==0) {
                     matriz[i][j] = array_1[i];
@@ -35,7 +35,7 @@ public class Exercicio12 {
         }
         for (int i = 0; i < matriz.length; i++)
         {
-            for (int j = 0; j < matriz[i].length; j++)
+            for (int j = 0; j < matriz[0].length; j++)
             {
                 System.out.print(matriz[i][j] + "  ");
             }
