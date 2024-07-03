@@ -1,14 +1,25 @@
 body
 {
     background-color: bisque;
-    margin: 20px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    margin: 20px;    
 
+}
+body > h1
+{
+font-family: Arial;
+}
+p1
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
 }
 header
 {
     text-align: center;
+   /**
+    position:sticky ;
+    top: 0px;
+    **/
 }
 header > a > img
 {
@@ -37,4 +48,26 @@ footer
     background-color: grey;
     padding: 5px;
     margin: 10px;
+   /** position: sticky;
+    bottom: 0px;
+    */
+    
+}
+.fa-brands
+{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.fa-brands:hover
+{
+    color: bisque; 
+}
+.fa-linkedin
+{
+    color: white;
+}
+.fa-youtube
+{
+    color: red;
 }
