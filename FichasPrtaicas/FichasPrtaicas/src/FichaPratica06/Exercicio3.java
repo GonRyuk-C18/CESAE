@@ -89,7 +89,7 @@ public class Exercicio3 {
     {
         int soma=0;
 
-        for (int i=0; i<num; i++)
+        for (int i=0; soma<=num; i++)
         {
             soma=soma+i;
             if (soma==num)
@@ -99,7 +99,9 @@ public class Exercicio3 {
 
             }
         return false;
-        }
     }
+
+
+}
 
 
