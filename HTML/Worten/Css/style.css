@@ -1,0 +1,16 @@
+:root{
+    --corPrimaria: red;
+    --corSecundaria: white;
+
+}
+
+header
+{
+    background-color: var(--corPrimaria);
+    color: var(--corSecundaria);
+}
+footer
+{
+    background-color: var(--corPrimaria);
+    color: var(--corSecundaria);
+}

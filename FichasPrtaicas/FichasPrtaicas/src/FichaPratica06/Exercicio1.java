@@ -33,6 +33,7 @@ public class Exercicio1 {
         System.out.println("Escolha uma animal: ");
         animal_Escolhido = input.nextLine();
 
+
         fazer_Barulho(animal_Escolhido);
     }
     }
