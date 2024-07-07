@@ -18,7 +18,6 @@ public class Exercicio4_1 {
                 System.out.print("*");
             }
 
-            x=1;
             i++;
 
         }
