@@ -16,9 +16,10 @@ public class Exercicio5 {
             System.out.println(linhAtual);
             String[] linhaAtualSperada = linhAtual.split(" ");
 
-       // for (int i=0; i<; i++)
-       // System.out.println(linhaAtualSperada[i]);
+        for (int i=0; i< linhaAtualSperada.length; i++)
+            soma=soma+Integer.parseInt(linhaAtualSperada[i]);
         }
+        System.out.println("soma= " + soma);
     }
 
     public static void main(String[] args) throws FileNotFoundException {
