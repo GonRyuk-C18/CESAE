@@ -19,7 +19,7 @@ public class exercicio3 {
     public static String lerFicheiro(String path) throws FileNotFoundException {
     // Scanner de ficheiro no path indicado vai ser guardado na variavel FicheiroLido
         Scanner ficheiroLido = new Scanner(new File(path));
-        // criação de String ConteudoTotal para guardar a totalidade dos Stings lidos no ciclo while
+        // criação de String ConteudoTotal para guardar a totalidade dos Strings lidos no ciclo while
         String conteudoTotal = "";
     // enquanto ficheiroLido tem um linha seguinte, String Linhatual guarda o que está na linha atual que por sua vez "soma" ao que ja está na variavel ConteudoTotal
         while (ficheiroLido.hasNext()) {
